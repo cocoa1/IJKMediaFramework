@@ -1,0 +1,31 @@
+{
+  "name": "IJKMediaFramework",
+  "version": "0.1.0",
+  "summary": "A short description of IJKMediaFramework.",
+  "description": "EZ组件模版",
+  "homepage": "'https://github.com/cocoa1/IJKMediaFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cocoa1": "supercruze@163.com"
+  },
+  "source": {
+    "git": "git@github.com:cocoa1/IJKMediaFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "static_framework": true,
+  "source_files": "IJKMediaFramework/Classes/**/*",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+  },
+  "user_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+  }
+}
