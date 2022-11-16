@@ -5,52 +5,54 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.00052">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000341">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.255942">
+      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.188772">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: read_podspec" time="0.001644">
+      <testcase classname="fastlane.lanes" name="2: read_podspec" time="0.001107">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.002531">
+      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.003104">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_add" time="3.403798">
+      <testcase classname="fastlane.lanes" name="4: git_add" time="2.309392">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: git_commit" time="0.273985">
+      <testcase classname="fastlane.lanes" name="5: git_commit" time="1.197856">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.038541">
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.028667">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: git_branch" time="0.038944">
+      <testcase classname="fastlane.lanes" name="7: git_branch" time="0.03579">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="22.303841">
+      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="23.449054">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="9: pod_push" time="32.641811">
+      <testcase classname="fastlane.lanes" name="9: pod_push" time="38.338784">
+        
+          <failure message="/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:60:in `block (2 levels) in parsing_binding'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:354:in `run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:43:in `start'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/18haor/.rbenv/versions/2.7.6/bin/fastlane:23:in `load'&#10;/Users/18haor/.rbenv/versions/2.7.6/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'bundle exec pod repo push EZZE-CocoaPodSpecs 'IJKMediaFramework.podspec' --sources='https://github.com/cocoa1/EZZE-CocoaPodSpecs.git,https://github.com/CocoaPods/Specs.git' --swift-version=5.2 --allow-warnings --use-libraries --skip-import-validation --use-modular-headers' was 1 instead of 0.&#10;&#10;Validating spec&#10; -&gt; IJKMediaFramework -&gt; IJKMediaFramework (0.1.2)&#10;    - WARN  | source: Git SSH URLs will NOT work for people behind firewalls configured to only allow HTTP, therefore HTTPS is preferred.&#10;    - WARN  | summary: The summary is not meaningful.&#10;    - WARN  | description: The description is shorter than the summary.&#10;    - WARN  | url: There was a problem validating the URL 'https://github.com/cocoa1/IJKMediaFramework.&#10;    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code. You can use `--verbose` for more information.&#10;    - NOTE  | xcodebuild:  note: Using codesigning identity override: -&#10;    - NOTE  | [iOS] xcodebuild:  note: Building targets in dependency order&#10;    - NOTE  | [iOS] xcodebuild:  error: Unexpected duplicate tasks&#10;    - NOTE  | xcodebuild:  note: Target 'IJKMediaFramework' (project 'Pods') has copy command from 'IJKMediaFramework/IJKMediaFramework/Classes/Info.plist' to '/Users/18haor/Library/Developer/Xcode/DerivedData/App-euhvcdumrjdnyygvkuoumuzwiyes/Build/Products/Release-iphonesimulator/IJKMediaFramework/Info.plist'&#10;    - NOTE  | [iOS] xcodebuild:  warning: no rule to process file 'IJKMediaFramework/IJKMediaFramework/Classes/IJKMediaFramework' of type 'archive.ar' for architecture 'arm64' (in target 'IJKMediaFramework' from project 'Pods')&#10;    - NOTE  | [iOS] xcodebuild:  warning: no rule to process file 'IJKMediaFramework/IJKMediaFramework/Classes/Modules/module.modulemap' of type 'sourcecode.module-map' for architecture 'arm64' (in target 'IJKMediaFramework' from project 'Pods')&#10;    - NOTE  | [iOS] xcodebuild:  warning: no rule to process file 'IJKMediaFramework/IJKMediaFramework/Classes/IJKMediaFramework' of type 'archive.ar' for architecture 'x86_64' (in target 'IJKMediaFramework' from project 'Pods')&#10;    - NOTE  | [iOS] xcodebuild:  warning: no rule to process file 'IJKMediaFramework/IJKMediaFramework/Classes/Modules/module.modulemap' of type 'sourcecode.module-map' for architecture 'x86_64' (in target 'IJKMediaFramework' from project 'Pods')&#10;&#10;[!] The `IJKMediaFramework.podspec` specification does not validate.&#10;" />
         
       </testcase>
     
