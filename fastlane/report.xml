@@ -5,22 +5,22 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.00049">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000426">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.2635">
+      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.127792">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: read_podspec" time="0.001105">
+      <testcase classname="fastlane.lanes" name="2: read_podspec" time="0.000958">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: pod_lib_lint" time="6.665693">
+      <testcase classname="fastlane.lanes" name="3: pod_lib_lint" time="1.268074">
         
       </testcase>
     
